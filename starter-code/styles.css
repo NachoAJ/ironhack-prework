@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-weight: 550;
+  padding: 0.75em 0;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 35px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-left {
+  float: left;
+  margin-left: 1em;
+}
+
+.top-links {
+  float: right;
+  padding: 0;
+  margin: 0 1em;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header {
+  color: white;
+  background-color: rgb(32, 101, 136);
+  background-image: url(images/city-scape.svg);
+  height: 350px;
+  padding: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-header li, .top-header ul {
+  display: inline-block;
+}
+
+.top-header input, .top-header button {
+  height: 40px;
+  padding: 0 15px;
+  background-color: rgb(31, 82, 111);
+  border: 2px rgba(255,255,255,0.8);
+  color: rgba(255,255,255,0.8);
+}
+
+.top-header input {
+  width: 72%;
+}
+
+.bottom-header {
+  width: 800px;
+  margin: 20px auto;
+}
+
+.bottom-header button {
+  color: white;
+  background-color: rgb(240, 146, 51);
+  border: 0;
+  border-radius: 15px;
+  text-align: center;
+  padding: 10px;
+  margin: 40px 0;
+}
+
+.bottom-header aside {
+  width: 50%;
+}
+
+#orgs {
+  color: white;
+  background-color: rgb(39, 53, 71);
+  height: 450px;
+}
+
+#orgs h1 {
+  font-size: 2em;
+}
+
+#orgs .container {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+#orgs button {
+  color: white;
+  background-color: rgb(203, 56, 55);
+  border: 0;
+  border-radius: 15px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 0 10px;
+}
+
+#orgs li {
+  padding: 10px;
+}
+
+.col {
+  float: left;
+  width: 45%;
+}
+
+.col-2 {
+  width: 45%;
+  float: right;
+}
+
+#install {
+  background-image: url(images/forklift.svg);
+  height: 350px;
+  color: white;
+}
+
+#install .container {
+  width: 30%;
+  position: relative;
+  left: 10%;
+  top: 15%;
+}
+
+#install button {
+  color: white;
+  background-color: rgb(49, 68, 88);
+  border: 0;
+  border-radius: 15px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 0 10px;
+}
+
+.head-information {
+  margin: 0 auto;
+  padding: 30px;
+  width: 70%;
+  text-align: center;
+  color: rgb(83, 88, 98);
+}
+
+#information {
+  color: rgb(135, 145, 156);
+}
+
+#information h1, #information h3 {
+  color: rgb(83, 88, 98);
+  font-weight: 600;
+}
+
+#information a {
+  color: rgb(208, 74, 73);
+}
+
+#information .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.col-3 {
+  width: 30%;
+  float: left;
+  text-align: center;
+  margin: 1% 1% 5% 1%;
+}
+
